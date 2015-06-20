@@ -5,14 +5,14 @@ This function does not take any argument, and returns a tidy data set with only 
 
 The first part of the functions loads the necessary package and loads all the necessary datasets into the memory.
 The data sets loaded are
-  *X_train.txt
-  *Y_train.txt
-  *subject_train.txt
-  *X_test.txt
-  *Y_test.txt
-  *subject_test.txt
-  *features.txt
-  *activity_labels.txt
+  * X_train.txt
+  * Y_train.txt
+  * subject_train.txt
+  * X_test.txt
+  * Y_test.txt
+  * subject_test.txt
+  * features.txt
+  * activity_labels.txt
   
 Then we use rbind row bind the training data set and test data set.
 Names to each of the coloumns are assigned using the the names function.
