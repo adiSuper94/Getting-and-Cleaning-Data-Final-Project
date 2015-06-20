@@ -14,8 +14,8 @@ The data sets loaded are
   * features.txt
   * activity_labels.txt
   
-Then we use rbind row bind the training data set and test data set.
-Names to each of the coloumns are assigned using the the names function.
+Then we use rbind, to row bind the training data set and test data set.
+Names to each of the coloumns are assigned using the the names() function.
 
 We then use the grep command to seperate out the columns with mean and sd,
 and create a vector which we use to subset the original dataset.
