@@ -1,6 +1,7 @@
 ## Code Book for run_analysis 
 
-x_train: contains the training data set without the labels.
+###x_train
+contains the training data set without the labels.
 x_test: contains the test data set without the labels.
 
 y_train: contains the labels for the training data set.
